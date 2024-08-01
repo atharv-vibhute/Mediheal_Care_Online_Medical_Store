@@ -1,0 +1,1207 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf')  format('truetype');
+}
+
+/* Poppins &  Montserrtat-Regular are used to <p>
+Oxaninum & Roboto_Slab-Regular are used to <h>
+Daminon-Regular are used to Sildbar */
+
+@font-face {
+    font-family: 'Damion-Regular';
+    src: url('../fonts/Damion-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto_Slab-Regular';
+    src: url('../fonts/Roboto_Slab/RobotoSlab-Regular.ttf')  format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home Page */
+
+ .blue {
+    background-color: rgb(91, 153, 253);
+}
+
+.blue_text {
+    color: rgb(91, 153, 253);
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    font-size: 18px;
+    color:white;
+    font-family: 'Roboto_Slab-Regular';
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto_Slab-Regular';
+    transition: transform 0.3s ease, filter 0.3s ease;
+} 
+
+a.login-link img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+  
+a.login-link:hover img {
+    transform: scale(1.1); /* Scale the image up slightly */
+    filter: brightness(1.2); /* Make the image slightly brighter */
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    transform: scale(1.1); /* Scale the image up slightly */
+    filter: brightness(1.2); /* Make the image slightly brighter */
+    color:white;
+    background-color: darkblue;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    transform: scale(1.1); /* Scale the image up slightly */
+    filter: brightness(1.2); /* Make the image slightly brighter */
+    color:white;
+    background-color: darkblue;
+} 
+
+
+
+
+
+
+.section {
+    padding: 10px;
+}
+
+.about_us {
+    display: flex;
+}
+
+.about_us_photo {
+    margin-top: 80px;
+}
+
+.h1 {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto_Slab-Regular';
+    font-weight: 900;
+}
+
+.our_products {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.our_happy_customers {
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.para {
+    /* color:rgb(100, 100, 100); */
+    font-family: 'Montserrat-Regular';
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.para1 {
+    /* color:rgb(57, 57, 57); */
+    font-family: 'Montserrat-Regular';
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.box1 {
+    background-color:#f38122;
+    padding:10px;
+    color:white;
+    box-shadow: 3px 3px 1px #602c199c;
+}
+
+.alternate {
+    background-color: rgb(91, 153, 253);
+    color: white;
+}
+
+.alternate_mediheal {
+    color:darkblue;
+}
+
+.photo {
+    box-shadow: 3px 3px 1px #602c199c;
+    border-radius: 5px;
+}
+
+.more_btn1 {
+    background:  rgb(91, 153, 253);
+    color: #fff;
+    letter-spacing: 0.5px;
+    padding: 13px 40px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px #602c199c;
+    transition: 0.5s;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    font-family: "Open Sans",Sans-serif;
+}
+
+.more_btn1:hover{
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+    background-color: darkblue;
+    color:white;
+}
+
+.product_button {
+    margin-left: 10%;
+}
+
+.about_us_button {
+    margin-left: 34%;
+    margin-right: 34%;
+}
+
+.information {
+    background-color: white;
+    height: 100%;
+}
+
+.decreption {
+    color:black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.h2 {
+    /* color:rgb(57, 57, 57); */
+    text-align: center;
+    font-family: 'Roboto_Slab-Regular';
+    /* font-family: 'Oxanium', cursive; */
+    font-weight: 600;
+}
+
+.row {
+    margin:13px;
+}
+
+.mediheal {
+    color: rgb(91, 153, 253);
+}
+
+.contact_us {
+    align-content: center;
+    text-align: center;
+}
+
+.contact_us_button {
+    border-radius: 5px;
+    margin-left: 50px;
+    padding: 10px 5px 10px 5px;
+    background-color:white;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    box-shadow: 3px 3px 1px #602c199c;
+    transition: 0.5s;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    font-family: "Open Sans",Sans-serif;
+    text-align: center;
+}
+
+.contact_us_button:hover{
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+    color:white;
+    background-color: darkblue;
+}
+
+.contact_us_flex {
+    display: flex;
+}
+
+.h3 {
+    font-family: 'Roboto_Slab-Regular';
+    font-weight: 600;
+}
+
+/* .main-footer {
+    position: relative;
+    background-color: rgba(27, 27, 27, .9);
+    color:white;
+}
+
+.main-footer::after {
+    content: "";
+    background: url(../Images/9_slider1.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2; 
+}
+
+.main-footer::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2; 
+} */
+
+.main-footer{
+    background-color: #002b46;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 15%;
+    background-image: url(../Images/9_slider1.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.ed_img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .72);
+}
+
+.main-footer a{
+    color: white;
+}
+
+.logo {
+    font-family: 'Montserrat-Regular';
+    line-height: 30px;
+}
+
+.h4 {
+    font-family: 'Roboto_Slab-Regular';
+}
+
+.h5 {
+    font-family: 'Roboto_Slab-Regular';
+}
+
+.quick_links {
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Montserrat-Regular';
+}
+
+
+.links {
+    transition: transform 0.3s ease, filter 0.3s ease, color 0.3s ease;
+    color: inherit; /* Ensure the color property is inheritable */
+    text-decoration: none; /* Remove underline if any */
+    display: inline-block;
+}
+
+.links:hover {
+    transform: scale(1.1); /* Scale the text up slightly */
+    filter: brightness(1.2); /* Make the text slightly brighter */
+    color:rgb(91, 153, 253);   /* Ensure the color change is applied */
+  }
+
+.address {
+    font-family: 'Montserrat-Regular';
+    line-height: 30px;
+}
+
+.para2 {
+    font-family: 'Montserrat-Regular';
+}
+
+/* .customer_feedback {
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+    padding: 10px;
+    height: 308px;
+} */
+
+.customer_feedback {
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+    padding: 20px; /* Adjusted padding */
+    height: auto; /* Adjust height */
+    min-height: 308px; /* Ensure consistent height */
+}
+
+.feedback_container {
+    margin: 10px;
+}
+
+.social_media {
+    border: 3px solid rgb(91, 153, 253);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.social {
+    word-spacing: 200px;
+    font-family: 'Montserrat-Regular';
+}
+
+.end {
+    padding: 10px;
+}
+
+
+
+
+
+.main-slider {
+    position: relative;
+}
+.slider-img {
+    position: relative;
+}
+.slider-img img {
+    width: 100%;
+    height: 750px;
+}
+.slider-text {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+#slide {
+    text-align: center;
+    padding: 25px;
+}
+.textside {
+    margin-left: 0;
+    margin-right: 0;
+    display: initial;
+}
+h6 {
+    /* -webkit-text-stroke: 0.5px #000; */
+    color: #fff;
+    font-weight: bold;
+    font-size: 67px;
+    line-height: 70px;
+    /* font-family: "Open Sans",Sans-serif; */
+    /* font-family: 'Damion-Regular'; */
+    font-family: 'Roboto_Slab-Regular';
+    letter-spacing: 1px;
+}
+
+
+
+
+.content h1 {
+    z-index: 1;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Damion-Regular';
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: unset;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 42px;
+}
+.more_btn {
+    background: rgb(91, 153, 253);
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 13px 40px;
+    display: inline-block;
+    margin: 40px 0 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px #602c199c;
+    transition: 0.5s;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    font-family: "Open Sans",Sans-serif;
+}
+.bx-wrapper {
+    border: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    background: none;
+}
+.slider-img:before {
+    position: absolute;
+    content: '';
+    background:#303628b8;
+}
+
+.slider-img:before {
+    /* background: #002147 none repeat scroll 0 0; */
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.more_btn:hover{
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+    background-color: darkblue;
+    color:white;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact Us*/
+
+/* .contact_us_header {
+    position: relative;
+    background-color: rgba(27, 27, 27, .9);
+    color:white;
+}
+
+.contact_us_header::after {
+    content: "";
+    background: url(../Images/13_businessman-shows-outstretched-hand-with-social-icon-on-virtual-screen-contact-us-free-photo.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2; 
+}
+
+.contact_us_header::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+} */
+
+.contact_us_header{
+    background-color: #002b46;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    background-image: url(../Images/13_businessman-shows-outstretched-hand-with-social-icon-on-virtual-screen-contact-us-free-photo.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.ed_img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .72);
+}
+
+.header_contact {
+    margin-left: 34%;
+    margin-right: 34%;
+    padding: 20px;
+}
+
+.contact_form {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+}
+
+.input {
+    margin: 10px;
+    padding: 10px;
+    border-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+}
+
+.send_message_button {
+    margin: 10px;
+    padding: 10px;
+    border-color: white;
+}
+
+.say_hello {
+    color: white;
+    text-align: center;
+}
+
+.connect_with_mediheal {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.contact_us_photo {
+    box-shadow: 3px 3px 1px #602c199c;
+    border-radius: 5px;
+}
+
+.connect_photo {
+    border:1px solid black;
+    align-items: center;
+}
+
+.form_div {
+    margin: 20px 0px 40px 0px;
+}
+
+.office_details {
+    text-align: center;
+    border: 5px solid rgb(91, 153, 253);
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.office_details_center {
+    display: flex;
+    align-items: center;
+}
+
+.space {
+    padding: 10%;
+}
+
+.address_center_mobile {
+    margin-left: 8%;
+}
+
+/* .offi {
+    color : white;
+} */
+
+/* .address_banner {
+    position: relative;
+    background-color: rgba(27, 27, 27, .6);
+    color:white;
+}
+
+.address_banner::after {
+    content: "";
+    background: url(../Images/30_contact-us-customer-support-hotline-people-connect-call-customer-support-email-address-live-chat-internet-wifi_36325-3415.avif);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2; 
+}
+
+.address_banner::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+} */
+
+.address_banner{
+    background-color: #002b46;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 15%;
+    background-image: url(../Images/30_contact-us-customer-support-hotline-people-connect-call-customer-support-email-address-live-chat-internet-wifi_36325-3415.avif);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.ed_img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .72);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*About Us*/
+
+/* .about_us_header {
+    position: relative;
+    background-color: rgba(27, 27, 27, .9);
+    color: white;
+}
+
+.about_us_header::after {
+    content: "";
+    background: url(../Images/15_pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2; 
+}
+
+.about_us_header::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.05); 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+} */
+
+.about_us_header{
+    background-color: #002b46;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 10%;
+    background-image: url(../Images/15_pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.ed_img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .72);
+}
+
+
+.about_us_text {
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+.about_us_sentence {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.header_about {
+    padding: 20px;
+}
+
+.story_do_container {
+    padding: 10px;
+}
+
+.what_we_can_do {
+    background-color: rgb(91, 153, 253);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+    height: 100%;
+}
+
+.mediheal_story {
+    background-color: rgb(91, 153, 253);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+    height: 100%;
+}
+
+.white {
+    color: white;
+}
+
+.vision_mission_value {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+    text-align: center;
+    height: 100%;
+}
+
+.vision_mission_value_container {
+    padding: 10px;
+}
+
+.photo_main_container {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 10px;
+}
+
+.founder_photo_container {
+    border: 5px solid white;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 1px #602c199c; */
+    /* background-color: rgb(148, 189, 255); */
+    padding: 50px 215px 50px 215px;
+    }
+
+.founder_details {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.founder_photo {
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 1px #602c199c; */
+}
+
+/* .founder_banner {
+    position: relative;
+    background-color: rgba(27, 27, 27, .8);
+    color:white;
+    padding: 10px;
+}
+
+.founder_banner::after {
+    content: "";
+    background: url(../Images/31_istockphoto-1065050352-170667a.webp);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2; 
+}
+
+.founder_banner::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.05); 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+} */
+
+.founder_banner{
+    background-color: #002b46;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 26%;
+    background-image: url(../Images/31_istockphoto-1065050352-170667a.webp);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.ed_img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .72);
+}
+
+.center {
+    text-align: center;
+}
+
+.why_choose_us_container {
+    padding: 10px;
+}
+
+.why_choose_us_image {
+    margin: 10px;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.why_choose_us_text {
+    text-align: center;
+}
+
+.images_us {
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Product */
+
+/*.product_header {
+    position: relative;
+    background-color: rgba(27, 27, 27, .9);
+    color:white;
+}*/
+
+/*.product_header::after {
+    content: "";
+    background: url(../Images/20_high-angle-medical-items-arrangement_23-2149341565.avif);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2; 
+}*/
+
+/*.product_header::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}*/
+.product_header{
+    background-color: #002b46;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    background-image: url(../Images/20_high-angle-medical-items-arrangement_23-2149341565.avif);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.ed_img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .72);
+}
+
+.header_product {
+    padding: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.category {
+    background-color: rgb(91, 153, 253);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+    text-align: center;
+    height: 100%;
+}
+
+.category_contanier {
+    padding: 10px;
+}
+
+.photo {
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+}
+
+.category_types {
+    margin: 20px;
+    color:white;
+}
+
+.more_btn2 {
+    background:  rgb(91, 153, 253);
+    color: #fff;
+    letter-spacing: 0.5px;
+    /* padding: 13px 40px; */
+    padding: 10px;
+    display: inline-block;  
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px #602c199c;
+    transition: 0.5s;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    font-family: "Open Sans",Sans-serif;
+}
+
+.more_btn2:hover{
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+    color:white;
+    background-color: darkblue; 
+}
+
+.more_btn3 {
+    background: white;
+    color: rgb(91, 153, 253);
+    letter-spacing: 0.5px;
+    /* padding: 13px 40px; */
+    padding: 10px;
+    display: inline-block;  
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px #602c199c;
+    transition: 0.5s;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    font-family: "Open Sans",Sans-serif;
+    font-weight: 600;
+}
+
+.more_btn3:hover{
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+    color:white;
+    background-color: darkblue; 
+}
+
+.product_actual {
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+    /* text-align: center; */
+    height: 100%;
+}
+
+.photo_imgage {
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.products_types {
+    margin: 20px;
+    font-weight: 900;
+}
+
+.grey_color {
+    color:#4c4c4c;
+}
+
+.gray {
+    background-color:rgb(234, 234, 234);;
+}
+
+/* .input-other {
+    padding: 10px;
+    border-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+} */
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(96, 44, 25, 0.6); 
+    padding: 10px;
+    gap: 10px; 
+    margin: 10px;
+  }
+  
+  /* .input-icon {
+    margin-right: 10px; 
+  } */
+  
+  .input-other {
+    padding: 10px;
+    border: none;
+    outline: none; 
+    border-radius: 5px;
+    /* flex: 1;  */
+  }
+  
+  .button {
+    background-color:  rgb(91, 153, 253); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+  
+  .button:hover {
+    background-color: darkblue; 
+  }
+  
+  .search {
+    display: flex;
+  }
+
+.sidebar {
+    width: 100%;
+    height: 300px; /* Set the desired height */
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    border:10px solid black;
+}
+
+.h6 {
+    font-family: 'Roboto_Slab-Regular';
+    color:black;
+}
+
+.products {
+    font-weight: 900;
+}
+
+.filters {
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.fill {
+    font-family: 'Roboto_Slab-Regular';
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 1px #602c199c;
+    text-align: center;
+    height: 100%;
+}
+
+.filter_container {
+    padding: 10px;
+}
+
+.i {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+  
+.i:hover {
+    transform: scale(1.1); /* Scale the image up slightly */
+    filter: brightness(1.2); /* Make the image slightly brighter */
+}
+
+.fa:hover {
+    color:rgb(91, 153, 253);
+}
+
+.button_submit {
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.check_button {
+    width: 100px;
+    height: 40px;
+}
+
+.placeholder {
+    width: 770px;
+    height: 40px;
+    text-align: center;
+}
+
+.quantity {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fill label {
+    display: inline-block;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
